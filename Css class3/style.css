@@ -1,4 +1,4 @@
-#mainheading {
+/* #mainheading {
   color: blue;
   background-color: aqua;
   }
@@ -22,4 +22,37 @@
   color: #FFFFFF;
   background-color: #000000;
   }
-  
+   */
+           body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .scale {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .block {
+            width: 50px;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+            font-weight: bold;
+            border: 1px solid #000;
+        }
+        /* pH colors */
+        .ph-0 { background-color: #ff0000; } /* Strong Acid */
+        .ph-1 { background-color: #ff4500; }
+        .ph-2 { background-color: #ff8c00; }
+        .ph-3 { background-color: #ffa500; }
+        .ph-4 { background-color: #ffd700; }
+        .ph-5 { background-color: #adff2f; }
+        .ph-6 { background-color: #7fff00; }
+        .ph-7 { background-color: #00ff00; } /* Neutral */
+        .ph-8 { background-color: #32cd32; }
+        .ph-9 { background-color: #008000; }
+        .ph-10 { background-color: #20b2aa; }
+        .ph-11 { background-color: #00ced1; }
+        .ph-12 { background-color: #1e90ff; }
+        .ph-13 { background-color: #4169e1; }
+        .ph-14 { background-color: #0000ff; }
