@@ -30,3 +30,14 @@
  li{
     display: inline;
  }
+ img{
+   width: 100%;
+ }
+ .img{
+   width: 400px;
+   border: 1px solid black;
+   min-width: 200px;
+ }
+ .img:hover{
+   box-shadow: 5px 5px 10px black;
+ }
