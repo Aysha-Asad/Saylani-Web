@@ -1,0 +1,32 @@
+*{
+    margin: 5px;
+    padding: 0;
+}
+/* div{ */
+    /* border: 2px solid black;
+    width: 500px;
+    height: 400px;
+    min-width: 200px;  */
+    /* min-height: 200px;
+    max-width: 600px;
+    max-height: 400px;
+} */
+ #maindiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ }
+ a{
+    display: block;
+   
+ }
+ .card{
+    border: 2px solid black;
+ }
+ #nav{
+    text-align: center;
+ }
+ li{
+    display: inline;
+ }
