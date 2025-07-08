@@ -1,0 +1,75 @@
+:root {
+    --primary-bg: #181818;
+    --secondary-bg: #282828;
+    --accent: #ff6f61;
+    --text-main: #f4f4f4;
+    --text-secondary: #b0b0b0;
+}
+
+body {
+    background: linear-gradient(135deg, var(--primary-bg), var(--secondary-bg));
+    color: var(--text-main);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    transition: background 0.5s;
+}
+
+header, footer {
+    background: var(--secondary-bg);
+    color: var(--accent);
+    padding: 1.5rem 2rem;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--accent);
+    margin-top: 0;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #fff;
+    text-shadow: 0 0 5px var(--accent);
+}
+
+section {
+    background: rgba(40, 40, 40, 0.85);
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 800px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+}
+
+button {
+    background: var(--accent);
+    color: var(--primary-bg);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+button:hover {
+    background: #fff;
+    color: var(--accent);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: var(--secondary-bg);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--accent);
+    border-radius: 4px;
+}

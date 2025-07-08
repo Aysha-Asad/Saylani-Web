@@ -1,0 +1,41 @@
+/* .container {
+  display: flex; /* Horizontal by default */
+  /* justify-content: space-between; /* Distribute space */
+  /* align-items: center; /* Center vertically */
+/* } */ 
+/* .container2 {
+  display: grid; /* Two-dimensional layout */
+  /* grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+  /* gap: 20px; Space between grid items */
+/* } */  
+.main-container {
+  display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-template-areas: 'header sidebar header main "." side';
+margin-left: 20px;
+margin-inline-start: 20ch;
+}
+
+.box {
+  background-color: #f0f;
+  border: 4px solid #fff;
+  margin: 10px;
+  width: 100%;
+  /* Add a valid box-shadow or remove the line if not needed */
+  /* box-shadow: 2px 2px 8px #ccc; */
+}
+#box1 {
+  grid-area: "header";
+}
+#box2 {
+  grid-area: "sidebar";
+}
+#box3 {
+  grid-area: "header";
+  }
+#box4 {
+  grid-area: "main";
+}
+#box5 {
+  grid-area: "side";
+}
