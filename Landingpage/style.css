@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: left;
+    width: 200px;
+    height: 100px;
+}
+
+.navbar .logo span {
+  color: red;
+}
+
+.navbar .restaurant-text {
+  color: red;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.navbar .buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar .btn {
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar .btn-franchise {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.navbar .btn-order {
+  background-color: red;
+  color: #fff;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #8fd3f4, #84fab0);
+  padding: 60px 20px;
+  text-align: center;
+  color: #000;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero h1 span {
+  background: yellow;
+  color: red;
+  padding: 0 8px;
+  border-radius: 5px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.hero .order-btn {
+  background: red;
+  color: #fff;
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+/* Contact Numbers */
+.contact {
+  margin-top: 30px;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* Delivery Image */
+.delivery-img {
+  margin-top: 40px;
+}
+
+.delivery-img img {
+  width: 200px;
+}

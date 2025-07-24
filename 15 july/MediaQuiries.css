@@ -1,0 +1,21 @@
+.main{
+    border: 2px solid black;
+    display: flex;
+}
+.filter,.product-list{
+    border: 2px solid black;
+}
+.product-list{
+    display: flex;
+}
+.product-list div{
+    border: 2px solid black;
+}
+
+@media (max-width: 600px) {
+    .main {
+        display: flex;
+        /* background-color: lightcoral; */
+        flex-direction: column;
+    }
+}
