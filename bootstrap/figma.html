@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navbar Fix</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    crossorigin="anonymous"
+  />
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- 👇 Fix for Hamburger Icon Not Showing -->
+  <style>
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-light m-2">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="Icon.png" alt="icon" style="height:32px; width:auto; margin-right:8px;" />
+        <span class="text-dark">positivious</span>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        style="border: 1px solid #333;"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link text-dark" href="#">About Us</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#">Services</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#">Use Cases</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#">Blog</a></li>
+        </ul>
+        <button class="btn btn-outline-dark ms-3">Get a Quote</button>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-6 text-center text-lg-start my-5">
+            <h1>Navigating the <br> digital landscape <br>for success</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ad cum eius laborum error explicabo, dicta assumenda vel animi praesentium accusantium esse deleniti consequatur ullam ea corrupti eum. Atque, ex.</p>
+            <button class="btn btn-dark rounded">book a consulatation</button>
+        </div>
+         <div class="col-lg-6">
+            <div class="w-100">
+            <img src="Illustration.png" alt="hero image" class="img-fluid w-100" style="height:515px width
+            1440px;border: 2px solid black;"/>
+            </div>
+        </div>
+    </div>
+    <!-- 5logo -->
+     <div class="container my-5">
+        <div class="row justify-content-between">
+            <div class="col-4  col-md-2">
+                <img src="Company logo.png" alt="5logo" class="img-fluid" style="height: 48px; width: auto;" />
+            </div>
+            <div class="col-4 col-md-2 text-center">
+                <img src="Company logo (1).png" alt="5logo" class="img-fluid" style="height: 48px; width: auto;" />
+            </div>
+            <div class="col-4 col-md-2 text-center">
+                <img src="Company logo (2).png" alt="5logo" class="img-fluid" style="height: 48px; width: auto;" />
+            </div>
+            <div class="col-4 col-md-2 text-center">
+                <img src="Company logo (3).png" alt="5logo" class="img-fluid" style="height: 48px; width: auto;" />
+            </div>
+            <div class="col-4 col-md-2 text-center">
+                <img src="Company logo (4).png" alt="5logo" class="img-fluid" style="height: 48px; width: auto;" />
+            </div>
+             <div class="col-4 col-md-2 text-center">
+                <img src="Vector.png" alt="5logo" class="img-fluid" style="height: 48px; width: auto;" />
+            </div>
+
+
+        </div>
+     </div>
+  </div>
+  <div class="container">
+    <div><h3 class="col-4">Services</h3></div>
+  
+  
+  </div>
+</body>
+</html>
