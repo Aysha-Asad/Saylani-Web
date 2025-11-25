@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle-Button</title>
+</head>
+<style>
+    body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            transition: background-color 0.4s, color 0.4s;
+            background-color: white;
+            color: black;
+        }
+
+        .dark-mode {
+            background-color: #121212;
+            color: white;
+        }
+
+        #toggleBtn {
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+        }
+
+        #toggleBtn.dark {
+            background-color: #444;
+        }
+</style>
+<body>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+     <!-- <h1>Dark / Light Mode Example</h1>
+    <button id="toggleBtn" onclick="toggleButton()">🌙 Dark Mode</button> -->
+    <script src="script.js"></script>
+</body>
+</html>

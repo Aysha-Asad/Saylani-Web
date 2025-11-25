@@ -1,0 +1,37 @@
+body {
+    background-color: #f891c1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.clock {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px; */
+    background-color: #f891c1;
+}
+
+#time {
+    font-size: 60px;
+    background-color: #ff74f87a;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 10px rgb(244, 7, 153);
+    margin-bottom: 0;
+    display: block;  /* Add this line */
+}
+
+#date {
+    font-size: 24px;
+    font-family: 'Inter', sans-serif; /* Clean, modern font */
+    background-color: #ff74f87;
+    padding: 10px 20px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: block;  /* Add this line */
+}

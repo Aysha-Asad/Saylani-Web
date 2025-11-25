@@ -1,0 +1,26 @@
+#main {
+    display: flex;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+     gap: 30px;
+  
+}
+.card {
+  
+    border-radius: 15px;
+    background-color: #ecb288;
+    padding: 40px;
+    text-align: center;
+       flex-wrap: wrap;
+} 
+
+button {
+    background-color: #723c15;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
